@@ -1,2 +1,3 @@
-import { map } from 'lodash/fp/map'
-console.log(map((s)=>s+9)([1,2,3]))
+import map  from 'lodash-es/map'
+map([1,2,3],console.log) 
+// test
