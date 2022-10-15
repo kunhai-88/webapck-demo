@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node ./node_modules/webpack-cli/bin/cli.js --config test.config.js",
-    "code": "node ./dist/main.js",
+    "code": "node ./dist/179.js",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",

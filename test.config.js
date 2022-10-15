@@ -4,6 +4,6 @@ module.exports = {
   entry: path.resolve(__dirname,'./src/lodash.js'),
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: "[name][contenthash].js"
+    filename: "[id].js"
   },
 }
